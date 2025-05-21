@@ -1,0 +1,111 @@
+.list-res-format{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 0.2fr 0.2fr 0.2fr 0.2fr ;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 15px;
+    border: 1px solid #cacaca;
+    font-size: 19px;
+    border-radius: 5px;
+    background-color: rgba(245, 245, 245, 0.849);
+}
+
+
+.restaurant-main-img,
+.restaurant-logo-img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  display: block;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+
+.custom-file-label {
+  display: inline-block;
+  padding: 6px 12px;
+  background-color: #7396bb;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.custom-file-label:hover {
+  background-color: #0057b3cc;
+}
+
+.file-input-wrapper {
+  margin-bottom: 10px;
+}
+
+
+
+.custom-edit-btn{
+  display: inline-block;
+  padding: 6px 12px;
+  background-color: #7396bb;
+  color: white;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.custom-edit-btn:hover{
+    background-color: #0057b3cc;
+}
+
+
+.custom-save-btn{
+  display: inline-block;
+  padding: 6px 12px;
+  background-color: #7bbb73;
+  color: white;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.custom-save-btn:hover{
+    background-color: #1eb300cc;
+}
+
+
+.custom-cancel-btn{
+  display: inline-block;
+  padding: 6px 12px;
+  background-color: #bbb673;
+  color: white;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.custom-cancel-btn:hover{
+    background-color: #b3a700cc;
+}
+
+.custom-remove-btn{
+  display: inline-block;
+  padding: 6px 12px;
+  background-color: #bb7373;
+  color: white;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.custom-remove-btn:hover{
+    background-color: #b30000cc;
+}

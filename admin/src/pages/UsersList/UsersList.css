@@ -1,0 +1,102 @@
+.users-table-format {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr 0.2fr 0.2fr 0.2fr; /* Adjust columns: Name, Email, Actions */
+    align-items: center;
+    gap: 15px;
+    padding: 12px 15px;
+    border: 1px solid #cacaca;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: rgba(245, 245, 245, 0.9);
+
+}
+
+.users-table-format.title {
+    background-color: whitesmoke;
+}
+
+.users-table-format button:hover {
+    background-color: #d3d3d3;
+}
+
+.users-table-format td {
+    overflow-wrap: break-word; /* Handle long text gracefully */
+}
+
+.edit-btn{
+  display: inline-block;
+  padding: 6px 12px;
+  background-color: #7396bb;
+  color: white;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.edit-btn:hover{
+    background-color: #0057b3cc;
+}
+
+.save-btn{
+  display: inline-block;
+  padding: 6px 12px;
+  background-color: #7bbb73;
+  color: white;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.save-btn:hover{
+    background-color: #1eb300cc;
+}
+
+.cancel-btn{
+  display: inline-block;
+  padding: 6px 12px;
+  background-color: #bbb673;
+  color: white;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.cancel-btn:hover{
+    background-color: #b3a700cc;
+}
+
+
+.remove-btn{
+  display: inline-block;
+  padding: 6px 12px;
+  background-color: #bb7373;
+  color: white;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.remove-btn:hover{
+    background-color: #b30000cc;
+}
+
+@media (max-width: 600px) {
+    .users-table-format {
+        grid-template-columns: 1fr 2fr; /* Name and Email only */
+        gap: 10px;
+    }
+    .users-table-format.title {
+        display: none; /* Hide title row on smaller screens */
+    }
+    .users-table-format button {
+        font-size: 14px; /* Adjust button size for smaller screens */
+    }
+}
